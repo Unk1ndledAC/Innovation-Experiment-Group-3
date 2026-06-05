@@ -10,7 +10,7 @@ class InnovationHelloApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '曲冠衡的创新实验 Flutter 首页',
+      title: 'QGH的创新实验 Flutter 首页',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
         useMaterial3: true,
@@ -42,7 +42,7 @@ class _HelloHomePageState extends State<HelloHomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('曲冠衡的创新实验 Flutter 首页'),
+        title: const Text('QGH的创新实验 Flutter 首页'),
         backgroundColor: colorScheme.inversePrimary,
         leading: const Padding(
           padding: EdgeInsets.all(8.0),
@@ -104,7 +104,7 @@ class _HelloHomePageState extends State<HelloHomePage> {
                           ),
                           const SizedBox(width: 6),
                           Text(
-                            '曲冠衡',
+                            'QGH',
                             style: TextStyle(
                               fontSize: 15,
                               color: colorScheme.secondary,
